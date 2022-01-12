@@ -8,12 +8,12 @@
 
 //function that takes a string and returns a count for each letter
 const countLetters = function(word) {
-  //Had to add a new variable to remove the comma so it's not counted withing the word variable when I loop it
-  let removeComma = word.split(' ').join('');
+  //Had to add a new variable to remove the space so it's not counted withing the word variable when I loop it
+  let removeSpace = word.split(' ').join('');
   //Needed an empty object to place my counted letter key/values in
   let letterObj = {};
-  //looped through the comma free loop and iterated up the a number with each matching key
-  for (const letter of removeComma) {
+  //looped through the space free variable and iterated up the a number with each matching key
+  for (const letter of removeSpace) {
     if (letterObj[letter]) {
       letterObj[letter] += 1;
     } else {
@@ -25,7 +25,7 @@ const countLetters = function(word) {
   return letterObj;
 };
 
-//Tes code
+//Test code
 countLetters('LHL');
 countLetters("lighthouse in the house");
 countLetters("How about this many spaces in this one sentence!");
