@@ -12,7 +12,7 @@ const findKeyByValue = function(genre, show) {
   const key = Object.keys(genre);
   //looped through the key variable
   for (const i of key) {
-  //checked if show is equal to the genre object[i] and to return the key if so
+  //checked if show(value) is equal to the genre(object)[i(keys)] then return that key 
     if (show === genre[i]) {
       return i;
     }
