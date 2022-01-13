@@ -20,33 +20,8 @@ const eqArrays = function(one, two){
   return true;
 };
 
-
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
-// const eqObjects = function(object1, object2) {
-
-
-//   const objKeyOne = Object.keys(object1);
-//   const objKeyTwo = Object.keys(object2);
-//   console.log(object1)
-//   // console.log(objKeyOne, objKeyTwo)
-//   // console.log(Object.values(object1, object2));
-//   for(const i of objKeyOne) {
-//     if(objKeyOne.length !== objKeyTwo.length) {
-//       console.log('no')
-//       if(Object.values(object1) !== Object.values(object2)) {
-//         console.log('no')
-//       }
-//       // console.log(objKeyTwo.length)
-//       //     console.log('yes')
-//           return objKeyOne
-//     } else {
-//       // console.log(i)
-//       // return objKeyOne + objKeyTwo
-//     }
-//   }
-// };
-
 const eqObjects = function(object1, object2) {
   //assign variables keys
   const objKeyOne = Object.keys(object1);
