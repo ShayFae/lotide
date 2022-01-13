@@ -39,7 +39,6 @@ const eqObjects = function(object1, object2) {
     if(Array.isArray(object1[i]) || Array.isArray(object2[i])) {
       // console.log('Num 2: ', Array.isArray(object2[i]))
       // console.log('Num 1: ', Array.isArray(object1[i]) )
-      //if eqArrays function object1[value] and object2[value] == !(false) return false
       if(!eqArrays(object1[i], object2[i])) {
         return false
         }   
