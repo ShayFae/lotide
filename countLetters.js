@@ -29,6 +29,3 @@ const countLetters = function(word) {
 countLetters('LHL');
 countLetters("lighthouse in the house");
 countLetters("How about this many spaces in this one sentence!");
-
-// const word = ['LHL'];
-

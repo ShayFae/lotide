@@ -42,22 +42,3 @@ assertEqual(result1["Jason"], 1);
 assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
-
-//Function recieves items and returns a count of specific items
-// let test = {};
-// const countOnly = function(allItems, itemsToCount) {
-//   for(const x in allItems) {
-//     console.log(allItems[x])
-//     test["name"] = allItems[x];
-//     // if(allItems[x] === itemsToCount) {
-//     //   console.log("yes")
-//     // }
-//   }
-//   for(const y in itemsToCount) {
-//     console.log(itemsToCount[y])
-//     // test["count"] = itemsToCount[y]
-//   }
-//   // console.log(allItems)
-//   // console.log(itemsToCount)
-//   console.log(test)
-// };
