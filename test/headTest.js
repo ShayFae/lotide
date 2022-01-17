@@ -1,28 +1,28 @@
 const assert = require('chai').assert;
-const head   = require('../head');
+const head = require('../head');
 
 describe("#head", () => {
-  it("returns 1 for [1, 2, 3]", () => {
+  it("it should return 1 form [1, 2, 3]", () => {
     assert.strictEqual(head([1, 2, 3]), 1);
   });
 
-  it("returns 5 for [5]", () => {
+  it("it should return 5 form [5]", () => {
     assert.strictEqual(head(['5']), '5'); 
   });
 
-  it("returns 8 for [8, 6, 7]", () => {
+  it("it should return 8 form [8, 6, 7]", () => {
     assert.strictEqual(head([8, 6, 7]), 8);
   });
 
-  it("returns 'Hello' for [Hello, Lighthouse, Labs]", () => {
+  it("it should return 'Hello' form ['Hello', 'Lighthouse', 'Labs']", () => {
     assert.strictEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
   });
 
-  it("returns 1 for [1]", () => {
+  it("it should return 1 form [1]", () => {
     assert.strictEqual(head([1]), 1);
   });
 
-  it("returns undefined for []", () => {
+  it("it should return undefined form []", () => {
     assert.strictEqual(head([]), undefined);
   });
 
