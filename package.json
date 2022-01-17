@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@shayfae/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project made for Lighthouse Labs 2022 bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,10 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/ShayFae/lotide.git"
   },
-  "author": "",
+  "author": "Ifrah Noor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ShayFae/lotide/issues"
   },
-  "homepage": "https://github.com/ShayFae/lotide#readme"
+  "homepage": "https://github.com/ShayFae/lotide#readme",
+  "dependencies": {
+    "my-package": "0.0.0"
+  }
 }
